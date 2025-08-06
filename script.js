@@ -11,6 +11,18 @@ audios.forEach(audio => {
     });
 });
 
+// Pausar los demás audios cuando uno empieza a reproducirse
+document.querySelectorAll('audio').forEach(audio => {
+    audio.addEventListener('play', () => {
+        document.querySelectorAll('audio').forEach(otherAudio => {
+            if (otherAudio !== audio) {
+                otherAudio.pause();
+            }
+        });
+    });
+});
+
+
 // ==============================
 // 2️⃣ Botón flotante para subir al inicio
 // ==============================
@@ -86,3 +98,4 @@ cards.forEach(card => {
     card.style.transition = "all 0.7s ease";
     observer.observe(card);
 });
+
