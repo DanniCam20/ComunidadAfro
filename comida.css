@@ -281,7 +281,7 @@ main.contenido {
     .btn-retroceder {
         margin-left: 0;     /* Corrige el botón fuera de pantalla */
         display: inline-block;
-        margin-left: -100px;
+        
 }
 
 /* Para celulares pequeños */
@@ -323,6 +323,7 @@ main.contenido {
         bottom: 10px;
     }
 }
+
 
 
 
