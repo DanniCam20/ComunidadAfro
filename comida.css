@@ -509,6 +509,8 @@ h2 {
 nav {
     margin: 0 0 20px 0;
     padding: 0;
+    flex-wrap:wrap;
+
 }
 
 .nav {
@@ -519,6 +521,7 @@ nav {
     list-style: none;
     padding-left: 0;
     margin-bottom: 0;
+    flex-wrap: wrap;
 }
 
 .nav-item {
@@ -799,4 +802,5 @@ audio {
         animation: none;
     }
 }
+
 
