@@ -526,6 +526,7 @@ nav {
 
 .nav-item {
     margin: 0 4px;
+    flex-wrap:wrap;
 }
 
 .nav-link {
@@ -540,6 +541,7 @@ nav {
     transition: background 0.3s, transform 0.2s;
     box-shadow: 0 2px 8px rgba(255,64,64,0.08);
     display: inline-block;
+    flex-wrap:wrap;
 }
 
 .nav-link.active,
@@ -556,12 +558,14 @@ nav {
     .nav {
         flex-direction: column;
         gap: 6px;
+        flex-wrap: wrap;
     }
     .nav-link {
         width: 100%;
         text-align: center;
         padding: 10px 0;
         font-size: 1rem;
+        flex-wrap:wrap;
     }
 }
 
@@ -802,5 +806,6 @@ audio {
         animation: none;
     }
 }
+
 
 
