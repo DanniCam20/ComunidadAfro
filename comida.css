@@ -562,17 +562,6 @@ nav {
     }
 }
 
-.barra{
-
-
-    background-color: #222;
-    margin: 0;
-    height: 100px;
-    width: auto;
-    color: #f7f3ef;
-
-}
-
 .logo{
 
     width: 70px;
@@ -593,6 +582,64 @@ nav {
     height: auto;
       margin-left: 1200px;
 }
+
+/* ...existing code... */
+
+/* Ajuste de imágenes en la barra de navegación */
+.barra {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 18px;
+    background: #e6dddd;
+}
+
+.logoi, .logof {
+    width: 38px;
+    height: 38px;
+    border-radius: 8px;
+    background: #fff;
+    border: 2px solid #ff9f1c;
+    box-shadow: 0 2px 8px rgba(255, 159, 28, 0.08);
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.logoi:hover, .logof:hover {
+    border-color: #ff4040;
+    box-shadow: 0 4px 16px rgba(255, 64, 64, 0.15);
+    background: #fff3e0;
+    transform: scale(1.08);
+}
+/* Responsive: Acomoda las imágenes en móviles */
+@media (max-width: 700px) {
+    .barra {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 8px;
+    }
+    .logo {
+        width: 36px;
+        height: 36px;
+    }
+    .logoi, .logof {
+        width: 28px;
+        height: 28px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .barra a, .barra img {
+        margin: 0 2px;
+    }
+}
+
+/* Opcional: centra verticalmente si hay menú hamburguesa */
+@media (max-width: 500px) {
+    .barra {
+        gap: 4px;
+    }
+}
+
+/* ...existing code... */
 
 
 
