@@ -562,8 +562,22 @@ nav {
     }
 }
 
+.barra{
 
 
+    background-color: #222;
+    margin: 0;
+    height: 100px;
+    width: auto;
+    color: #f7f3ef;
+
+}
+
+.logo{
+
+    width: 100px;
+    height: auto;
+}
 
 
 
@@ -688,6 +702,14 @@ audio {
         margin-left: 0;
         width: 100%;
     }
+
+    .logo{
+
+    width: 100px;
+    height: auto;
+    }
+
+
 }
 
 /* Para móviles pequeños */
@@ -716,6 +738,14 @@ audio {
     .proverbios {
         padding: 0 5px;
     }
+
+    .logo{
+
+    width: 100px;
+    height: auto;
+    }
+
+
 }
 
 /* Ajusta el botón retroceder para que nunca salga de pantalla */
