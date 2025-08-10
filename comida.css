@@ -575,9 +575,25 @@ nav {
 
 .logo{
 
+    width: 70px;
+    height: auto;
+    margin-left: 25px;
+}
+
+.logof{
+
+    width: 30px;
+    height: auto;
+    margin: 20px;
+}
+
+.logoi{
+
     width: 100px;
     height: auto;
+      margin-left: 1200px;
 }
+
 
 
 
