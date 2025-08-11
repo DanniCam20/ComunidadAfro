@@ -509,7 +509,7 @@ h2 {
 nav {
     margin: 0 0 20px 0;
     padding: 0;
-    flex-wrap:wrap;
+
 
 }
 
@@ -521,12 +521,12 @@ nav {
     list-style: none;
     padding-left: 0;
     margin-bottom: 0;
-    flex-wrap: wrap;
+    
 }
 
 .nav-item {
     margin: 0 4px;
-    flex-wrap:wrap;
+
 }
 
 .nav-link {
@@ -541,7 +541,7 @@ nav {
     transition: background 0.3s, transform 0.2s;
     box-shadow: 0 2px 8px rgba(255,64,64,0.08);
     display: inline-block;
-    flex-wrap:wrap;
+    
 }
 
 .nav-link.active,
@@ -565,7 +565,7 @@ nav {
         text-align: center;
         padding: 10px 0;
         font-size: 1rem;
-        flex-wrap:wrap;
+        
     }
 }
 
@@ -806,6 +806,7 @@ audio {
         animation: none;
     }
 }
+
 
 
 
